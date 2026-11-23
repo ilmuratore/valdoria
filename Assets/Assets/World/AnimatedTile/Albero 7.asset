@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Albero 7
+  m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
+  m_AnimatedSprites:
+  - {fileID: 2049909348, guid: cf02501470b38df41ac85c76b7b0b5de, type: 3}
+  - {fileID: 1374307712, guid: cf02501470b38df41ac85c76b7b0b5de, type: 3}
+  - {fileID: 1105407424, guid: cf02501470b38df41ac85c76b7b0b5de, type: 3}
+  - {fileID: -1678908857, guid: cf02501470b38df41ac85c76b7b0b5de, type: 3}
+  - {fileID: -352515710, guid: cf02501470b38df41ac85c76b7b0b5de, type: 3}
+  - {fileID: 237294154, guid: cf02501470b38df41ac85c76b7b0b5de, type: 3}
+  - {fileID: -534317973, guid: cf02501470b38df41ac85c76b7b0b5de, type: 3}
+  - {fileID: 872776771, guid: cf02501470b38df41ac85c76b7b0b5de, type: 3}
+  m_MinSpeed: 6
+  m_MaxSpeed: 6
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0

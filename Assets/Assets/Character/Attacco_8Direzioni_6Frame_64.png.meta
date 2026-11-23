@@ -1,0 +1,1373 @@
+fileFormatVersion: 2
+guid: b3a6f5ac2b91fca4caf553f1a5b91124
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8203757918486956597
+    second: Attacco_8Direzioni_6Frame_64_0
+  - first:
+      213: -870442049649890374
+    second: Attacco_8Direzioni_6Frame_64_1
+  - first:
+      213: 111459970052396823
+    second: Attacco_8Direzioni_6Frame_64_2
+  - first:
+      213: 5531382151105698868
+    second: Attacco_8Direzioni_6Frame_64_3
+  - first:
+      213: -1762843496545794335
+    second: Attacco_8Direzioni_6Frame_64_4
+  - first:
+      213: -5039084553138186247
+    second: Attacco_8Direzioni_6Frame_64_5
+  - first:
+      213: -8256495025124646169
+    second: Attacco_8Direzioni_6Frame_64_6
+  - first:
+      213: -6099467329448210443
+    second: Attacco_8Direzioni_6Frame_64_7
+  - first:
+      213: -5757507465105418713
+    second: Attacco_8Direzioni_6Frame_64_8
+  - first:
+      213: 7406670392209614748
+    second: Attacco_8Direzioni_6Frame_64_9
+  - first:
+      213: 4339621792128770246
+    second: Attacco_8Direzioni_6Frame_64_10
+  - first:
+      213: 815718939012891552
+    second: Attacco_8Direzioni_6Frame_64_11
+  - first:
+      213: -5025216525536908314
+    second: Attacco_8Direzioni_6Frame_64_12
+  - first:
+      213: 5274928642580011049
+    second: Attacco_8Direzioni_6Frame_64_13
+  - first:
+      213: -5522499440608434477
+    second: Attacco_8Direzioni_6Frame_64_14
+  - first:
+      213: 8256111580257586645
+    second: Attacco_8Direzioni_6Frame_64_15
+  - first:
+      213: 4271043728361405749
+    second: Attacco_8Direzioni_6Frame_64_16
+  - first:
+      213: 8632730972541079477
+    second: Attacco_8Direzioni_6Frame_64_17
+  - first:
+      213: -5500502180765931118
+    second: Attacco_8Direzioni_6Frame_64_18
+  - first:
+      213: -4485736346516688649
+    second: Attacco_8Direzioni_6Frame_64_19
+  - first:
+      213: -4075325932248234904
+    second: Attacco_8Direzioni_6Frame_64_20
+  - first:
+      213: 8834786989561156619
+    second: Attacco_8Direzioni_6Frame_64_21
+  - first:
+      213: 5150864549263060335
+    second: Attacco_8Direzioni_6Frame_64_22
+  - first:
+      213: 5099551839450373068
+    second: Attacco_8Direzioni_6Frame_64_23
+  - first:
+      213: -6339851119569969417
+    second: Attacco_8Direzioni_6Frame_64_24
+  - first:
+      213: 5026565759363877918
+    second: Attacco_8Direzioni_6Frame_64_25
+  - first:
+      213: 7373066037383858139
+    second: Attacco_8Direzioni_6Frame_64_26
+  - first:
+      213: -296665035199945138
+    second: Attacco_8Direzioni_6Frame_64_27
+  - first:
+      213: -3956373756964966234
+    second: Attacco_8Direzioni_6Frame_64_28
+  - first:
+      213: -5578502383288131384
+    second: Attacco_8Direzioni_6Frame_64_29
+  - first:
+      213: 8854215897254286150
+    second: Attacco_8Direzioni_6Frame_64_30
+  - first:
+      213: -8576281235520094987
+    second: Attacco_8Direzioni_6Frame_64_31
+  - first:
+      213: -3411124537136155949
+    second: Attacco_8Direzioni_6Frame_64_32
+  - first:
+      213: -115385809401903288
+    second: Attacco_8Direzioni_6Frame_64_33
+  - first:
+      213: -4791309966830564871
+    second: Attacco_8Direzioni_6Frame_64_34
+  - first:
+      213: -1053334225885897416
+    second: Attacco_8Direzioni_6Frame_64_35
+  - first:
+      213: 5565801967064131648
+    second: Attacco_8Direzioni_6Frame_64_36
+  - first:
+      213: 5330378109502798666
+    second: Attacco_8Direzioni_6Frame_64_37
+  - first:
+      213: 3273698275294321621
+    second: Attacco_8Direzioni_6Frame_64_38
+  - first:
+      213: 4549816883477625093
+    second: Attacco_8Direzioni_6Frame_64_39
+  - first:
+      213: 4595835573996804487
+    second: Attacco_8Direzioni_6Frame_64_40
+  - first:
+      213: -478661371825265733
+    second: Attacco_8Direzioni_6Frame_64_41
+  - first:
+      213: -5274851813296239082
+    second: Attacco_8Direzioni_6Frame_64_42
+  - first:
+      213: -8324207161359613053
+    second: Attacco_8Direzioni_6Frame_64_43
+  - first:
+      213: -585040129263124970
+    second: Attacco_8Direzioni_6Frame_64_44
+  - first:
+      213: 886924329903907008
+    second: Attacco_8Direzioni_6Frame_64_45
+  - first:
+      213: -7711266381748632000
+    second: Attacco_8Direzioni_6Frame_64_46
+  - first:
+      213: 6315475508926706386
+    second: Attacco_8Direzioni_6Frame_64_47
+  - first:
+      213: -5057428052338044637
+    second: Attacco_8Direzioni_6Frame_64_48
+  - first:
+      213: -6829366451325479412
+    second: Attacco_8Direzioni_6Frame_64_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5794573a5662e80800000000000000
+      internalID: -8203757918486956597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb2e0151919be3f0800000000000000
+      internalID: -870442049649890374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71716a1904cfb8100800000000000000
+      internalID: 111459970052396823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c579982ca63cc40800000000000000
+      internalID: 5531382151105698868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6c7c90e2f1987e0800000000000000
+      internalID: -1762843496545794335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f75a011c43911ab0800000000000000
+      internalID: -5039084553138186247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e26aa9f4890b6d80800000000000000
+      internalID: -8256495025124646169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff832db7c65a5ba0800000000000000
+      internalID: -6099467329448210443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7265bbe07793910b0800000000000000
+      internalID: -5757507465105418713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97ae00ca77c9c660800000000000000
+      internalID: 7406670392209614748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c02163170f693c30800000000000000
+      internalID: 4339621792128770246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a30c6c9d04025b00800000000000000
+      internalID: 815718939012891552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb23fbd138d24ab0800000000000000
+      internalID: -5025216525536908314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928d38417af443940800000000000000
+      internalID: 5274928642580011049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6ad3aa4042c53b0800000000000000
+      internalID: -5522499440608434477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd0e3f4db9939270800000000000000
+      internalID: 8256111580257586645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d342954abc54b30800000000000000
+      internalID: 4271043728361405749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfc2d3d41f9dc770800000000000000
+      internalID: 8632730972541079477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2996f25d86a4aa3b0800000000000000
+      internalID: -5500502180765931118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f070dd2f867fb1c0800000000000000
+      internalID: -4485736346516688649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864086818a88177c0800000000000000
+      internalID: -4075325932248234904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04190355f77b9a70800000000000000
+      internalID: 8834786989561156619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d2af0640c8b7740800000000000000
+      internalID: 5150864549263060335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb1120216f35c640800000000000000
+      internalID: 5099551839450373068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe5b292ff25408a0800000000000000
+      internalID: -6339851119569969417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c860f1de2f1c540800000000000000
+      internalID: 5026565759363877918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd703cf2f74625660800000000000000
+      internalID: 7373066037383858139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46e0a7e8b802ebf0800000000000000
+      internalID: -296665035199945138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0fc61a7032819c0800000000000000
+      internalID: -3956373756964966234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0e07973ad2592b0800000000000000
+      internalID: -5578502383288131384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6435578627e70ea70800000000000000
+      internalID: 8854215897254286150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcf9f6c7adeaf880800000000000000
+      internalID: -8576281235520094987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2716f6e4049a0d0800000000000000
+      internalID: -3411124537136155949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8478a7ab731166ef0800000000000000
+      internalID: -115385809401903288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9864a78f8d18db0800000000000000
+      internalID: -4791309966830564871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d5f443a1ec161f0800000000000000
+      internalID: -1053334225885897416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04827017663bd3d40800000000000000
+      internalID: 5565801967064131648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bbe6726ae49f940800000000000000
+      internalID: 5330378109502798666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db1ab09c338e6d20800000000000000
+      internalID: 3273698275294321621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50932cc7952342f30800000000000000
+      internalID: 4549816883477625093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789de22da10b7cf30800000000000000
+      internalID: 4595835573996804487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb367a4b4047b59f0800000000000000
+      internalID: -478661371825265733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e07a12936fbc6b0800000000000000
+      internalID: -5274851813296239082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383c566b0b97a7c80800000000000000
+      internalID: -8324207161359613053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e3ce32a1581e7f0800000000000000
+      internalID: -585040129263124970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0e29a9afcfe4c00800000000000000
+      internalID: 886924329903907008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0460673f4141cf490800000000000000
+      internalID: -7711266381748632000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attacco_8Direzioni_6Frame_64_47
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d27149b38315a750800000000000000
+      internalID: 6315475508926706386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1541c815f81dcf54881e5394f3405a4e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":8.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Attacco_8Direzioni_6Frame_64_0: -8203757918486956597
+      Attacco_8Direzioni_6Frame_64_1: -870442049649890374
+      Attacco_8Direzioni_6Frame_64_10: 4339621792128770246
+      Attacco_8Direzioni_6Frame_64_11: 815718939012891552
+      Attacco_8Direzioni_6Frame_64_12: -5025216525536908314
+      Attacco_8Direzioni_6Frame_64_13: 5274928642580011049
+      Attacco_8Direzioni_6Frame_64_14: -5522499440608434477
+      Attacco_8Direzioni_6Frame_64_15: 8256111580257586645
+      Attacco_8Direzioni_6Frame_64_16: 4271043728361405749
+      Attacco_8Direzioni_6Frame_64_17: 8632730972541079477
+      Attacco_8Direzioni_6Frame_64_18: -5500502180765931118
+      Attacco_8Direzioni_6Frame_64_19: -4485736346516688649
+      Attacco_8Direzioni_6Frame_64_2: 111459970052396823
+      Attacco_8Direzioni_6Frame_64_20: -4075325932248234904
+      Attacco_8Direzioni_6Frame_64_21: 8834786989561156619
+      Attacco_8Direzioni_6Frame_64_22: 5150864549263060335
+      Attacco_8Direzioni_6Frame_64_23: 5099551839450373068
+      Attacco_8Direzioni_6Frame_64_24: -6339851119569969417
+      Attacco_8Direzioni_6Frame_64_25: 5026565759363877918
+      Attacco_8Direzioni_6Frame_64_26: 7373066037383858139
+      Attacco_8Direzioni_6Frame_64_27: -296665035199945138
+      Attacco_8Direzioni_6Frame_64_28: -3956373756964966234
+      Attacco_8Direzioni_6Frame_64_29: -5578502383288131384
+      Attacco_8Direzioni_6Frame_64_3: 5531382151105698868
+      Attacco_8Direzioni_6Frame_64_30: 8854215897254286150
+      Attacco_8Direzioni_6Frame_64_31: -8576281235520094987
+      Attacco_8Direzioni_6Frame_64_32: -3411124537136155949
+      Attacco_8Direzioni_6Frame_64_33: -115385809401903288
+      Attacco_8Direzioni_6Frame_64_34: -4791309966830564871
+      Attacco_8Direzioni_6Frame_64_35: -1053334225885897416
+      Attacco_8Direzioni_6Frame_64_36: 5565801967064131648
+      Attacco_8Direzioni_6Frame_64_37: 5330378109502798666
+      Attacco_8Direzioni_6Frame_64_38: 3273698275294321621
+      Attacco_8Direzioni_6Frame_64_39: 4549816883477625093
+      Attacco_8Direzioni_6Frame_64_4: -1762843496545794335
+      Attacco_8Direzioni_6Frame_64_40: 4595835573996804487
+      Attacco_8Direzioni_6Frame_64_41: -478661371825265733
+      Attacco_8Direzioni_6Frame_64_42: -5274851813296239082
+      Attacco_8Direzioni_6Frame_64_43: -8324207161359613053
+      Attacco_8Direzioni_6Frame_64_44: -585040129263124970
+      Attacco_8Direzioni_6Frame_64_45: 886924329903907008
+      Attacco_8Direzioni_6Frame_64_46: -7711266381748632000
+      Attacco_8Direzioni_6Frame_64_47: 6315475508926706386
+      Attacco_8Direzioni_6Frame_64_5: -5039084553138186247
+      Attacco_8Direzioni_6Frame_64_6: -8256495025124646169
+      Attacco_8Direzioni_6Frame_64_7: -6099467329448210443
+      Attacco_8Direzioni_6Frame_64_8: -5757507465105418713
+      Attacco_8Direzioni_6Frame_64_9: 7406670392209614748
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
