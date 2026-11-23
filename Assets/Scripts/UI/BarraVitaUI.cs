@@ -13,7 +13,7 @@ public class BarraVitaUI : MonoBehaviour
     [SerializeField] private Animator animatoreTesto;
 
     private int vitaPrecedente;
-
+    // private int vitaPrecedente2;
     public void Start()
     {
         vitaPrecedente = statistiche.VitaAttuale;
