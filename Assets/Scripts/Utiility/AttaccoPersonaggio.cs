@@ -20,6 +20,8 @@ public class AttaccoPersonaggio : MonoBehaviour
     private Animator animatore;
     private StatistichePersonaggio statistiche;
 
+    private Personaggio proprietario;
+
     private Vector2 direzioneAttacco = Vector2.down;
     private float prossimoAttacco;
     private bool colpoApplicato;
@@ -30,6 +32,7 @@ public class AttaccoPersonaggio : MonoBehaviour
     {
         animatore = GetComponent<Animator>();
         statistiche = GetComponent<StatistichePersonaggio>();
+        proprietario = GetComponent<Personaggio>();
     }
 
     public bool ProvaAttacco(Vector2 direzione)
@@ -106,7 +109,14 @@ public class AttaccoPersonaggio : MonoBehaviour
             if (ostacolo.collider != null)
                 continue;
 
-            bersaglio.SubisciDanno(statistiche.Forza);
+            if(bersaglio is StatistichePersonaggio vita)
+            {
+                vita.SubisciDanno(statistiche.Forza, proprietario);
+            }
+            else
+            {
+                bersaglio.SubisciDanno(statistiche.Forza);
+            }
         }
     }
     public void FineAttacco()

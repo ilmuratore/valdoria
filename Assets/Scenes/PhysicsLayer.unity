@@ -683,7 +683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2662452628620812852, guid: 1608dc444eeade742b5a033387a8bcfa, type: 3}
+  m_Sprite: {fileID: -4858848382536528185, guid: 6a1dcae7c4f51d346a7d811c003d8966, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -806,6 +806,7 @@ GameObject:
   - component: {fileID: 481000707}
   - component: {fileID: 481000711}
   - component: {fileID: 481000712}
+  - component: {fileID: 481000713}
   m_Layer: 6
   m_Name: Player2
   m_TagString: Giocatore
@@ -1072,6 +1073,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b095a0ec6290d249bbcde22d17405e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AttaccoGiocatore
+--- !u!114 &481000713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481000700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7760a41935ec73749b1e353c141feffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MortePersonaggio
+  pannelloGameOver: {fileID: 0}
 --- !u!1 &585914568
 GameObject:
   m_ObjectHideFlags: 0
@@ -78043,12 +78057,14 @@ GameObject:
   - component: {fileID: 1596382552}
   - component: {fileID: 1596382555}
   - component: {fileID: 1596382556}
-  - component: {fileID: 1596382558}
-  - component: {fileID: 1596382560}
-  - component: {fileID: 1596382559}
-  - component: {fileID: 1596382562}
   - component: {fileID: 1596382561}
+  - component: {fileID: 1596382562}
+  - component: {fileID: 1596382558}
+  - component: {fileID: 1596382559}
+  - component: {fileID: 1596382560}
   - component: {fileID: 1596382563}
+  - component: {fileID: 1596382564}
+  - component: {fileID: 1596382565}
   m_Layer: 6
   m_Name: NPC
   m_TagString: Nemico
@@ -78307,9 +78323,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 722b6de9abf148c47a293eb8658a7f48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StatistichePersonaggio
-  vitaMassima: 100
+  vitaMassima: 10
   forza: 10
-  difesa: 5
+  difesa: 0
 --- !u!114 &1596382563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78331,6 +78347,32 @@ MonoBehaviour:
   ostacoliColpo:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &1596382564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596382551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39524b5edd3c294583249038db4b327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RicompensaEsperienzaNemico
+  esperienzaFornita: 40
+--- !u!114 &1596382565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596382551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7760a41935ec73749b1e353c141feffe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MortePersonaggio
+  pannelloGameOver: {fileID: 0}
 --- !u!1 &1639462356
 GameObject:
   m_ObjectHideFlags: 0
