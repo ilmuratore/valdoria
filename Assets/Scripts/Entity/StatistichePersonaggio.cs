@@ -33,7 +33,7 @@ public class StatistichePersonaggio : MonoBehaviour, IDanneggiabile, ICurabile
     {
         if (danno <= 0 || VitaAttuale <= 0){ return;}
         int dannoEffettivo = Mathf.Max(1, danno - difesa);
-        VitaAttuale = Mathf.Max(0, VitaAttuale - danno);
+        VitaAttuale = Mathf.Max(0, VitaAttuale - dannoEffettivo);
         ValoriModificati?.Invoke();
         if(VitaAttuale == 0) { Morto?.Invoke(attaccante); }
     }
