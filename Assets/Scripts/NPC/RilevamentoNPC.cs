@@ -36,10 +36,16 @@ public class RilevamentoNPC : MonoBehaviour
        
         bersaglio = componenteBersaglio as IBersaglio;
 
-        if (bersaglio == null)
+        if (componenteBersaglio != null && bersaglio == null)
         {
             Debug.LogError("Il componente assegnato non implementa IBersaglio.", this);
         }
+    }
+
+    public void ImpostaBersaglio(BersaglioGiocatore nuovoBersaglio)
+    {
+        componenteBersaglio = nuovoBersaglio;
+        bersaglio = nuovoBersaglio;
     }
 
     public bool VedeBersaglio(bool giaInseguendo)
