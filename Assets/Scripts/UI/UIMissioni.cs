@@ -1,3 +1,4 @@
+using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -5,8 +6,8 @@ using UnityEngine.UI;
 
 public class UIMissioni : MonoBehaviour
 {
-    [Header("Missione")]
-    [SerializeField] private MissioneVillaggio missione;
+    [Header("Missioni")]
+    [SerializeField] private GestoreMissioni gestore;
     [Header("Dialogo e Storia")]
     [SerializeField] private GameObject pannelloDialogo;
     [SerializeField] private TextMeshProUGUI titoloDialogo;
@@ -18,8 +19,10 @@ public class UIMissioni : MonoBehaviour
     [SerializeField] private GameObject pannelloDiario;
     [SerializeField] private TextMeshProUGUI testoDiario;
     [SerializeField] private TextMeshProUGUI testoObiettivoHUD;
+    [SerializeField] private Button pulsanteTracciaSuccessiva;
 
     private InputAction azioneDiario;
+    private Missione missioneDialogo;
 
     private void Awake()
     {
@@ -30,11 +33,14 @@ public class UIMissioni : MonoBehaviour
         pulsanteAccetta.onClick.AddListener(Accetta);
         pulsanteConsegna.onClick.AddListener(Consegna);
         pulsanteChiudi.onClick.AddListener(ChiudiDialogo);
+        if (pulsanteTracciaSuccessiva != null) pulsanteTracciaSuccessiva.onClick.AddListener(TracciaSuccessiva);
     }
 
     private void OnEnable()
     {
-        missione.MissioneModificata += AggiornaUI;
+        if(gestore != null)
+            gestore.MissioniModificate += AggiornaUI;
+       
     }
 
     private void Start()
@@ -44,7 +50,8 @@ public class UIMissioni : MonoBehaviour
 
     private void OnDisable()
     {
-        missione.MissioneModificata -= AggiornaUI;
+        if(gestore != null)
+            gestore.MissioniModificate -= AggiornaUI;
     }
 
     private void OnDestroy()
@@ -52,6 +59,7 @@ public class UIMissioni : MonoBehaviour
         if (pulsanteAccetta != null) pulsanteAccetta.onClick.RemoveListener(Accetta);
         if (pulsanteConsegna != null) pulsanteConsegna.onClick.RemoveListener(Consegna);
         if (pulsanteChiudi != null) pulsanteAccetta.onClick.RemoveListener(ChiudiDialogo);
+        if (pulsanteTracciaSuccessiva != null) pulsanteTracciaSuccessiva.onClick.RemoveListener(TracciaSuccessiva);
     }
 
     private void Update()
@@ -61,26 +69,35 @@ public class UIMissioni : MonoBehaviour
         pannelloDiario.SetActive(!pannelloDiario.activeSelf);
     }
 
-    public void ApriOChiudiDialogo()
+    public void ApriDialogo(Missione missione)
     {
+        if (missione == null) return;
         if (pannelloDialogo.activeSelf)
         {
             ChiudiDialogo();
             return;
         }
+        missioneDialogo = missione;
         pannelloDiario.SetActive(false);
-        AggiornaUI();
+        AggiornaDialogo();
         pannelloDialogo.SetActive(true);
     }
 
     private void Accetta()
     {
-        if (missione.Accetta()) { ChiudiDialogo(); }
+        if (missioneDialogo != null && missioneDialogo.Accetta())
+        {
+            gestore.ImpostaTracciata(missioneDialogo);
+            ChiudiDialogo(); 
+        }
     }
 
     private void Consegna()
     {
-        missione.Consegna();
+        if(missioneDialogo != null)
+        {
+            missioneDialogo.Consegna();
+        }
     }
 
     private void ChiudiDialogo()
@@ -88,34 +105,50 @@ public class UIMissioni : MonoBehaviour
         pannelloDialogo.SetActive(false);
     }
 
+    private void TracciaSuccessiva()
+    {
+        if(gestore != null)
+        {
+            gestore.TracciaSuccessiva();
+        }
+    }
+
+    private void AggiornaDialogo()
+    {
+        if (missioneDialogo == null) return;
+        titoloDialogo.text = missioneDialogo.Titolo;
+        testoDialogo.text = missioneDialogo.TestoDialogo;
+        pulsanteAccetta.gameObject.SetActive(missioneDialogo.Stato == StatoMissione.NonAccettata);
+        pulsanteConsegna.gameObject.SetActive(missioneDialogo.Stato == StatoMissione.DaConsegnare);
+    }
+
     private void AggiornaUI()
     {
-        titoloDialogo.text = missione.Titolo;
-        pulsanteAccetta.gameObject.SetActive(missione.Stato == StatoMissione.NonAccettata);
-        pulsanteConsegna.gameObject.SetActive(missione.Stato == StatoMissione.DaConsegnare);
-        switch (missione.Stato)
+        AggiornaDialogo();
+        if (gestore == null) return;
+
+        StringBuilder diario = new StringBuilder();
+        foreach(Missione missione in gestore.Missioni)
         {
-            case StatoMissione.NonAccettata:
-                testoDialogo.text = missione.Descrizione + "\n\nVuoi aiutarci a liberare il villaggio?";
-                testoDiario.text = "Non hai ancora accettato la missione.";
-                testoObiettivoHUD.text = "";
-                break;
-            case StatoMissione.InCorso:
-                testoDialogo.text = "I goblin sono ancora nel villaggio. \n" + "Torna da me quando li avrai sconfitti";
-                testoDiario.text = $"{missione.Titolo}\n" + $"Elimina i nemici: {missione.Eliminati}/{missione.Totale}";
-                testoObiettivoHUD.text = $"Nemici eliminati: {missione.Eliminati}/{missione.Totale}";
-                break;
-            case StatoMissione.DaConsegnare:
-                testoDialogo.text = "Hai sconfitto tutti i goblin.\n" + "Grazie per aver salvato il villaggio.";
-                testoDiario.text = $"{missione.Titolo}\n" + $"Obiettivo raggiungo: {missione.Eliminati}/{missione.Totale}\n" + "Torna dal monaco per la ricompensa.";
-                testoObiettivoHUD.text = "Torna dal monaco al villaggio.";
-                break;
-            case StatoMissione.Completata:
-                testoDialogo.text = "Il villaggio é salvo, grazie mille.\n" + $"Hai ricevuto {missione.RicompensaXP} XP.";
-                testoDiario.text = $"{missione.Titolo}\n Missione Completata!.";
-                testoObiettivoHUD.text = "";
-                break;
+            if (missione == null || missione.Stato == StatoMissione.NonAccettata) continue;
+            string indicatore = gestore.MissioneTracciata == missione ? "> " : "";
+            diario.AppendLine(indicatore + missione.Titolo);
+            diario.AppendLine(missione.Stato.ToString());
+            if(missione.Stato != StatoMissione.Completata)
+            {
+                diario.AppendLine(missione.TestoObiettivo);
+            }
+            diario.AppendLine();
         }
+
+        testoDiario.text = diario.Length == 0
+            ? "Non hai ancora accettato missioni"
+            : diario.ToString();
+
+        Missione tracciata = gestore.MissioneTracciata;
+        testoObiettivoHUD.text = tracciata == null
+            ? ""
+            : tracciata.Titolo + "\n" + tracciata.TestoObiettivo;
     }
 
 }

@@ -1,10 +1,11 @@
 using UnityEngine;
 
+[RequireComponent(typeof(StatistichePersonaggio))]
 public class ObiettivoNemicoMissione : MonoBehaviour
 {
 
     private StatistichePersonaggio statistiche;
-    private MissioneVillaggio missione;
+    private MissioneEliminazione missione;
     private bool segnalato; 
     
     private void Awake()
@@ -23,7 +24,7 @@ public class ObiettivoNemicoMissione : MonoBehaviour
         statistiche.Morto -= QuandoMuore;    
     }
 
-    public void Inizializza(MissioneVillaggio nuovaMissione) { missione = nuovaMissione; }
+    public void Inizializza(MissioneEliminazione nuovaMissione) { missione = nuovaMissione; }
 
     private void QuandoMuore(Personaggio attaccante)
     {

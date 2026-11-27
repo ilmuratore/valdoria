@@ -10,25 +10,34 @@ public class InterazioneQuestNPC : MonoBehaviour
     [SerializeField] private GameObject indicatoreInterazione;
     [SerializeField] private UIMissioni uiMissioni;
 
-    private InputAction azioneInterazione;
-
-    private void Awake()
-    {
-        azioneInterazione = InputSystem.actions.FindAction("Player/Interact", true);
-    }
+    [Header("Missione offerta")]
+    [SerializeField] private Missione missione;
 
     private void Start()
     {
-        if (indicatoreInterazione != null) indicatoreInterazione.SetActive(false);
+        if (indicatoreInterazione != null)
+        {
+            indicatoreInterazione.SetActive(false);
+        }
     }
 
+    public bool PuoInteragire(BersaglioGiocatore personaggio)
+    {
+        return personaggio != null && personaggio == giocatore && personaggio.EAttivo && missione != null && uiMissioni != null && Vector2.Distance(transform.position, personaggio.transform.position) <= distanzaInterazione;
+    }
     private void Update() 
     {
-        bool vicino = giocatore != null && giocatore.EAttivo && Vector2.Distance(transform.position, giocatore.transform.position) <= distanzaInterazione;
-        if (indicatoreInterazione != null) indicatoreInterazione.SetActive(vicino);
-        if (vicino && uiMissioni != null && azioneInterazione.WasPressedThisFrame())
+        if (indicatoreInterazione != null)
         {
-            uiMissioni.ApriOChiudiDialogo();
+            indicatoreInterazione.SetActive(PuoInteragire(giocatore));
+        }
+    }
+
+    public void Interagisci()
+    {
+        if (PuoInteragire(giocatore))
+        {
+            uiMissioni.ApriDialogo(missione);
         }
     }
 
