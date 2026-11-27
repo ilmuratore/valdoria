@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Alleato))]
 public class InterazioneQuestNPC : MonoBehaviour
@@ -16,34 +15,33 @@ public class InterazioneQuestNPC : MonoBehaviour
     private void Start()
     {
         if (indicatoreInterazione != null)
-        {
             indicatoreInterazione.SetActive(false);
-        }
     }
 
     public bool PuoInteragire(BersaglioGiocatore personaggio)
     {
-        return personaggio != null && personaggio == giocatore && personaggio.EAttivo && missione != null && uiMissioni != null && Vector2.Distance(transform.position, personaggio.transform.position) <= distanzaInterazione;
+        return personaggio != null && personaggio == giocatore &&
+            personaggio.EAttivo && missione != null && uiMissioni != null &&
+            Vector2.Distance(transform.position, personaggio.transform.position)
+                <= distanzaInterazione;
     }
-    private void Update() 
+
+    private void Update()
     {
         if (indicatoreInterazione != null)
-        {
             indicatoreInterazione.SetActive(PuoInteragire(giocatore));
-        }
     }
 
     public void Interagisci()
     {
         if (PuoInteragire(giocatore))
-        {
             uiMissioni.ApriDialogo(missione);
-        }
     }
 
     private void OnDisable()
     {
-        if (indicatoreInterazione != null) indicatoreInterazione.SetActive(false);
+        if (indicatoreInterazione != null)
+            indicatoreInterazione.SetActive(false);
     }
 
     private void OnDrawGizmosSelected()
@@ -51,5 +49,4 @@ public class InterazioneQuestNPC : MonoBehaviour
         Gizmos.color = Color.cyan;
         Gizmos.DrawWireSphere(transform.position, distanzaInterazione);
     }
-
 }

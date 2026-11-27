@@ -1,4 +1,3 @@
-using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
@@ -7,11 +6,15 @@ public class AreaObiettivoMissione : MonoBehaviour
     [SerializeField] private MissioneEsplorazione missione;
     public MissioneEsplorazione Missione => missione;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D altro)
     {
-        if (missione == null) return;
-        BersaglioGiocatore giocatore = collision.GetComponentInParent<BersaglioGiocatore>();
-        if (giocatore != null) missione.RegistraArrivo(giocatore);
-    }
+        if (missione == null)
+            return;
 
+        BersaglioGiocatore giocatore =
+            altro.GetComponentInParent<BersaglioGiocatore>();
+
+        if (giocatore != null)
+            missione.RegistraArrivo(giocatore);
+    }
 }

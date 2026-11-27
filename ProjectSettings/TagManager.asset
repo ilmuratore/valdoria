@@ -38,7 +38,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - MinimappaIcone
   m_SortingLayers:
   - name: Default
     uniqueID: 0
@@ -54,6 +54,9 @@ TagManager:
     locked: 0
   - name: Personaggio_P1
     uniqueID: 2890706223
+    locked: 0
+  - name: Minimappa
+    uniqueID: 3632829167
     locked: 0
   m_RenderingLayers:
   - Default

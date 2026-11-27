@@ -1,4 +1,3 @@
-using Mono.Cecil.Cil;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,26 +12,32 @@ public class InterazioneQuestGiocatore : MonoBehaviour
         giocatore = GetComponent<BersaglioGiocatore>();
         azioneInterazione = InputSystem.actions.FindAction("Player/Interact", true);
     }
-    void Update()
+
+    private void Update()
     {
-        if(!giocatore.EAttivo || !azioneInterazione.WasPressedThisFrame())
-        {
+        if (!giocatore.EAttivo || !azioneInterazione.WasPressedThisFrame())
             return;
-        }
-        InterazioneQuestNPC vicino = null;
+
+        InterazioneQuestNPC migliore = null;
         float distanzaMinima = float.PositiveInfinity;
-        InterazioneQuestNPC[] npc = FindObjectsByType<InterazioneQuestNPC>(FindObjectsSortMode.None);
-        foreach(InterazioneQuestNPC candidato in npc)
+
+        InterazioneQuestNPC[] npc =
+            FindObjectsByType<InterazioneQuestNPC>(FindObjectsSortMode.None);
+
+        foreach (InterazioneQuestNPC candidato in npc)
         {
             if (!candidato.PuoInteragire(giocatore)) continue;
-            float distanza = Vector2.Distance(transform.position, candidato.transform.position);
+
+            float distanza = Vector2.Distance(
+                transform.position, candidato.transform.position
+            );
+
             if (distanza >= distanzaMinima) continue;
-            vicino = candidato;
+            migliore = candidato;
             distanzaMinima = distanza;
         }
-        if(vicino != null)
-        {
-            vicino.Interagisci();
-        }
+
+        if (migliore != null)
+            migliore.Interagisci();
     }
 }
